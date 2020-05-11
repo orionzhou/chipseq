@@ -1,0 +1,9 @@
+SampleID	Tissue	Genotype	Treatment	group	antibody	control	Replicate	MergeID	paired	spots	avgLength
+SRR518973	tassel1		chip	KN1_tassel1	KN1	tassel1_total	1	m1	FALSE	306675	33
+SRR518974	tassel1		total	tassel1_total			1	m2	FALSE	6877364	33
+SRR518975	tassel23		chip	KN1_tassel23	KN1	tassel23_total	1	m3	FALSE	226730	36
+SRR518976	tassel23		chip	KN1_tassel23	KN1	tassel23_total	1	m3	FALSE	141538	36
+SRR518977	tassel23		total	tassel23_total			1	m4	FALSE	1328198	36
+SRR518978	tassel23		total	tassel23_total			1	m5	FALSE	1217345	36
+SRR518979	ear1		chip	KN1_ear1	KN1	ear1_total	1	m6	FALSE	15535113	36
+SRR518980	ear1		total	ear1_total			1	m7	FALSE	15000962	36
