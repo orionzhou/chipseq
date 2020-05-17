@@ -1,6 +1,11 @@
 # Project directories
 cache
 logs
+nf
+
+peaks
+bigwig
+peaks_annotated
 
 # data folder
 data/*

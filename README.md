@@ -15,7 +15,7 @@ Briefly:
     - only one read out of a pair mapped
     - two reads mapped to two different chromosomes
     - two reads mapped in abnormal orientation
-- MACS2 was used to call broad and narrow peaks ("--gsize=2.1e9 --broad-cutoff=0.1") and calculate the FRiP scores.
+- MACS2 was used to call broad and narrow peaks ("--gsize=2.1e9 --broad --broad-cutoff=0.1") and calculate the FRiP scores.
 - HOMER was used to annotate peaks relative to gene features.
 - Genome-wide IP enrichment relative to control was calculated using deepTools
 - Strand cross-correlation peak and ChIP-seq quality measures including NSC and RSC were calculated using phantompeakqualtools.

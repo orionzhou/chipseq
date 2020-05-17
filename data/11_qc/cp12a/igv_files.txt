@@ -1,0 +1,4 @@
+bigwig/ear1_total_R1.bigWig	0,0,178
+bigwig/KN1_ear1_R1.bigWig	0,0,178
+peaks/KN1_ear1_R1.bed	0,0,178
+bigwig/tassel23_total_R1.bigWig	0,0,178
