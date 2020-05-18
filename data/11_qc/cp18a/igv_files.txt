@@ -1,0 +1,7 @@
+peaks/O2.bed	0,0,0
+bigwig/o2_R1.bigWig	0,0,178
+bigwig/O2_R1.bigWig	0,0,178
+peaks/O2_R1.bed	0,0,178
+bigwig/o2_R2.bigWig	0,0,178
+bigwig/O2_R2.bigWig	0,0,178
+peaks/O2_R2.bed	0,0,178

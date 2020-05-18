@@ -1,0 +1,5 @@
+sid	pair	pair_bad	pair_dup	pair_map	pair_map_hq	pair_map_hq0	pair_map0	pair_orphan	pair_orphan_hq	pair_orphan_hq0	pair_orphan0	pair_unmap	unpair	unpair_bad	unpair_dup	unpair_map	unpair_map_hq	unpair_map_hq0	unpair_map0	unpair_unmap
+IgG_R1.stat	0	0	0	0	0	0	0	0	0	0	0	0	75521834	0	0	73807091	19866431	18246400	67600870	1714743
+IgG_R2.stat	0	0	0	0	0	0	0	0	0	0	0	0	75108503	0	0	73995245	20388895	18902528	68290956	1113258
+TB1_R1.stat	0	0	0	0	0	0	0	0	0	0	0	0	70861147	0	0	68808908	18649424	17028298	62728882	2052239
+TB1_R2.stat	0	0	0	0	0	0	0	0	0	0	0	0	127079363	0	0	123451327	33275157	30002539	111296967	3628036

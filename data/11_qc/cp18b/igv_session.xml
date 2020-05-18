@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="../../reference_genome/10_genome.fna" hasGeneTrack="true" hasSequenceTrack="true" locus="All" version="8">
+	<Resources>
+		<Resource path="./peaks/bZIP22.bed"/>
+		<Resource path="./bigwig/bZIP22_R1.bigWig"/>
+		<Resource path="./peaks/bZIP22_R1.bed"/>
+		<Resource path="./bigwig/bZIP22_R2.bigWig"/>
+		<Resource path="./peaks/bZIP22_R2.bed"/>
+		<Resource path="./bigwig/IgG_R1.bigWig"/>
+		<Resource path="./bigwig/IgG_R2.bigWig"/>
+	</Resources>
+	<Panel height="1160" name="DataPanel" width="1897">
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/bZIP22.bed" name="bZIP22.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/bZIP22_R1.bigWig" name="bZIP22_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/bZIP22_R1.bed" name="bZIP22_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/bZIP22_R2.bigWig" name="bZIP22_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/bZIP22_R2.bed" name="bZIP22_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/IgG_R1.bigWig" name="IgG_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/IgG_R2.bigWig" name="IgG_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+	</Panel>
+</Session>

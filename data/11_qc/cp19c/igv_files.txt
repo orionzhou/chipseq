@@ -1,0 +1,7 @@
+bigwig/IgG_R1.bigWig	0,0,178
+bigwig/IgG_R2.bigWig	0,0,178
+peaks/TB1.bed	0,0,0
+bigwig/TB1_R1.bigWig	0,0,178
+peaks/TB1_R1.bed	0,0,178
+bigwig/TB1_R2.bigWig	0,0,178
+peaks/TB1_R2.bed	0,0,178

@@ -1,0 +1,5 @@
+SampleID	Tissue	Genotype	Treatment	group	antibody	control	Replicate	MergeID	paired	acc	spots	avgLength
+bZIP22_R1_T1			chip	bZIP22	bZIP22	IgG	1	m1	TRUE	SRR6977309	16689182	300
+IgG_R1_T1			IgG	IgG			1	m2	TRUE	SRR6977310	20101751	300
+bZIP22_R2_T1			chip	bZIP22	bZIP22	IgG	2	m1	TRUE	SRR6977311	25856399	300
+IgG_R2_T1			IgG	IgG			2	m2	TRUE	SRR6977312	17356754	300

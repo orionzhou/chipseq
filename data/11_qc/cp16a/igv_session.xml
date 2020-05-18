@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="../../reference_genome/10_genome.fna" hasGeneTrack="true" hasSequenceTrack="true" locus="All" version="8">
+	<Resources>
+		<Resource path="./bigwig/H4k5ac_B73_input_R1.bigWig"/>
+		<Resource path="./bigwig/H4k5ac_B73_input_R2.bigWig"/>
+		<Resource path="./bigwig/H4K5ac_B73_R1.bigWig"/>
+		<Resource path="./peaks/H4K5ac_B73_R1.bed"/>
+		<Resource path="./bigwig/H4K5ac_B73_R2.bigWig"/>
+		<Resource path="./peaks/H4K5ac_B73_R2.bed"/>
+		<Resource path="./bigwig/H4K5ac_B73_R3.bigWig"/>
+		<Resource path="./peaks/H4K5ac_B73_R3.bed"/>
+		<Resource path="./peaks/H4k5ac.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H4k5ac/deseq2/H4K5ac_B73vsH4K5ac_hda101/H4K5ac_B73vsH4K5ac_hda101.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H4K5ac_hda101_input_R1.bigWig"/>
+		<Resource path="./bigwig/H4K5ac_hda101_input_R2.bigWig"/>
+		<Resource path="./bigwig/H4K5ac_hda101_R1.bigWig"/>
+		<Resource path="./peaks/H4K5ac_hda101_R1.bed"/>
+		<Resource path="./bigwig/H4K5ac_hda101_R2.bigWig"/>
+		<Resource path="./peaks/H4K5ac_hda101_R2.bed"/>
+		<Resource path="./bigwig/H4K5ac_hda101_R3.bigWig"/>
+		<Resource path="./peaks/H4K5ac_hda101_R3.bed"/>
+		<Resource path="./bigwig/HDA101_B73_input_R1.bigWig"/>
+		<Resource path="./bigwig/HDA101_B73_input_R2.bigWig"/>
+		<Resource path="./bigwig/HDA101_B73_R1.bigWig"/>
+		<Resource path="./peaks/HDA101_B73_R1.bed"/>
+		<Resource path="./bigwig/HDA101_B73_R2.bigWig"/>
+		<Resource path="./peaks/HDA101_B73_R2.bed"/>
+		<Resource path="./peaks/HDA101.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/HDA101/deseq2/HDA101_B73vsHDA101_hda101/HDA101_B73vsHDA101_hda101.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/HDA101_hda101_input_R1.bigWig"/>
+		<Resource path="./bigwig/HDA101_hda101_input_R2.bigWig"/>
+		<Resource path="./bigwig/HDA101_hda101_R1.bigWig"/>
+		<Resource path="./peaks/HDA101_hda101_R1.bed"/>
+		<Resource path="./bigwig/HDA101_hda101_R2.bigWig"/>
+		<Resource path="./peaks/HDA101_hda101_R2.bed"/>
+	</Resources>
+	<Panel height="1160" name="DataPanel" width="1897">
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4k5ac_B73_input_R1.bigWig" name="H4k5ac_B73_input_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4k5ac_B73_input_R2.bigWig" name="H4k5ac_B73_input_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_B73_R1.bigWig" name="H4K5ac_B73_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_B73_R1.bed" name="H4K5ac_B73_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_B73_R2.bigWig" name="H4K5ac_B73_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_B73_R2.bed" name="H4K5ac_B73_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_B73_R3.bigWig" name="H4K5ac_B73_R3.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_B73_R3.bed" name="H4K5ac_B73_R3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4k5ac.bed" name="H4k5ac.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H4k5ac/deseq2/H4K5ac_B73vsH4K5ac_hda101/H4K5ac_B73vsH4K5ac_hda101.mLb.deseq2.FDR0.05.results.bed" name="H4K5ac_B73vsH4K5ac_hda101.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_hda101_input_R1.bigWig" name="H4K5ac_hda101_input_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_hda101_input_R2.bigWig" name="H4K5ac_hda101_input_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_hda101_R1.bigWig" name="H4K5ac_hda101_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_hda101_R1.bed" name="H4K5ac_hda101_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_hda101_R2.bigWig" name="H4K5ac_hda101_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_hda101_R2.bed" name="H4K5ac_hda101_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H4K5ac_hda101_R3.bigWig" name="H4K5ac_hda101_R3.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H4K5ac_hda101_R3.bed" name="H4K5ac_hda101_R3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_B73_input_R1.bigWig" name="HDA101_B73_input_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_B73_input_R2.bigWig" name="HDA101_B73_input_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_B73_R1.bigWig" name="HDA101_B73_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/HDA101_B73_R1.bed" name="HDA101_B73_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_B73_R2.bigWig" name="HDA101_B73_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/HDA101_B73_R2.bed" name="HDA101_B73_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/HDA101.bed" name="HDA101.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/HDA101/deseq2/HDA101_B73vsHDA101_hda101/HDA101_B73vsHDA101_hda101.mLb.deseq2.FDR0.05.results.bed" name="HDA101_B73vsHDA101_hda101.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_hda101_input_R1.bigWig" name="HDA101_hda101_input_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_hda101_input_R2.bigWig" name="HDA101_hda101_input_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_hda101_R1.bigWig" name="HDA101_hda101_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/HDA101_hda101_R1.bed" name="HDA101_hda101_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/HDA101_hda101_R2.bigWig" name="HDA101_hda101_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/HDA101_hda101_R2.bed" name="HDA101_hda101_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+	</Panel>
+</Session>

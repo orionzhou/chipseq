@@ -1,0 +1,7 @@
+peaks/bZIP22.bed	0,0,0
+bigwig/bZIP22_R1.bigWig	0,0,178
+peaks/bZIP22_R1.bed	0,0,178
+bigwig/bZIP22_R2.bigWig	0,0,178
+peaks/bZIP22_R2.bed	0,0,178
+bigwig/IgG_R1.bigWig	0,0,178
+bigwig/IgG_R2.bigWig	0,0,178
