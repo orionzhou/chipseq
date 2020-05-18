@@ -5,7 +5,8 @@ dirw = file.path(dird, '15_collect')
 
 
 #{{{ extract FRiP scores
-yids = c("cp12a",'cp12b','cp14g','cp15a')#,'cp15b','cp18a','ca19a4')
+yids = c("cp12a",'cp12b','cp14g','cp15a','cp15b','cp16a','cp18a','cp18b',
+         'cp19c','cd18a','ca19a4')
 ti = tibble(yid = yids) %>%
     mutate(meta = map(yid, read_chipseq_meta)) %>%
     mutate(bamstat = map(yid, read_chipseq_bamstats)) %>%
@@ -15,11 +16,13 @@ tih = ti %>% select(yid, meta) %>% unnest(meta) %>%
     rename(rep = Replicate) %>%
     distinct(yid,group,rep,antibody,control)
 tim = ti %>% select(yid, macs2) %>% unnest(macs2) %>%
-    separate(group, c("group", 'rep'), sep='_R') %>%
+    separate(group, c("group", 'rep'), sep='_R', extra='merge') %>%
     mutate(rep = as.integer(rep))
 
 to = t_cfg %>% select(yid,author,year) %>% inner_join(tim,by='yid') %>%
-    inner_join(tih, by=c('yid','group','rep'))
+    inner_join(tih, by=c('yid','group','rep')) %>%
+    mutate(yid = factor(yid, levels=yids)) %>%
+    arrange(yid, group, rep)
 
 fo = file.path(dirw, '05_macs2.tsv')
 write_tsv(to, fo, na='')
