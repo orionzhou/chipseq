@@ -1,0 +1,5 @@
+SampleID	Tissue	Genotype	Treatment	group	antibody	control	Replicate	MergeID	paired	acc	spots	avgLength
+input_R1_T1			chip	input			1	m1	FALSE	SRR1594033	3045051	101
+FEA4_R1_T1			input	FEA4	FEA4	input	1	m2	FALSE	SRR1594034	3208913	101
+input_R2_T1			chip	input			2	m1	FALSE	SRR1594035	3762023	101
+FEA4_R2_T1			input	FEA4	FEA4	input	2	m2	FALSE	SRR1594036	4183552	101

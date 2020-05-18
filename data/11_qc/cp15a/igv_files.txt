@@ -1,0 +1,7 @@
+peaks/FEA4.bed	0,0,0
+bigwig/FEA4_R1.bigWig	0,0,178
+peaks/FEA4_R1.bed	0,0,178
+bigwig/FEA4_R2.bigWig	0,0,178
+peaks/FEA4_R2.bed	0,0,178
+bigwig/input_R1.bigWig	0,0,178
+bigwig/input_R2.bigWig	0,0,178

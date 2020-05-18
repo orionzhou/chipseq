@@ -1,8 +1,29 @@
 source("functions.R")
-diri = file.path(dird, 'share')
+diri = file.path(dird, '11_qc')
 dirw = file.path(dird, '15_collect')
-tf = read_tf_info() %>% mutate(name=ifelse(is.na(name), tf, name))
+#tf = read_tf_info() %>% mutate(name=ifelse(is.na(name), tf, name))
 
+
+#{{{ extract FRiP scores
+yids = c("cp12a",'cp12b','cp14g','cp15a')#,'cp15b','cp18a','ca19a4')
+ti = tibble(yid = yids) %>%
+    mutate(meta = map(yid, read_chipseq_meta)) %>%
+    mutate(bamstat = map(yid, read_chipseq_bamstats)) %>%
+    mutate(macs2 = map(yid, read_chipseq_macs2))
+
+tih = ti %>% select(yid, meta) %>% unnest(meta) %>%
+    rename(rep = Replicate) %>%
+    distinct(yid,group,rep,antibody,control)
+tim = ti %>% select(yid, macs2) %>% unnest(macs2) %>%
+    separate(group, c("group", 'rep'), sep='_R') %>%
+    mutate(rep = as.integer(rep))
+
+to = t_cfg %>% select(yid,author,year) %>% inner_join(tim,by='yid') %>%
+    inner_join(tih, by=c('yid','group','rep'))
+
+fo = file.path(dirw, '05_macs2.tsv')
+write_tsv(to, fo, na='')
+#}}}
 
 #{{{ merge NF chipseq/dapseq results
 read_chipseq_peaks <- function(yid, min_frip=.05, tf_info=tf, diri = '~/projects/nf/data/out') {

@@ -9,12 +9,10 @@ Briefly:
   - duplicates
   - non-primary alignments
   - unmapped
-  - mapped to multiple locations
-  - having an insert size > 2kb
-  - mapped with abnormal paired-end signatures:
-    - only one read out of a pair mapped
-    - two reads mapped to two different chromosomes
-    - two reads mapped in abnormal orientation
+  - mapped to multiple locations (optional)
+  - mapped with >=4 mismatches (optional)
+  - having an insert size > 2kb (optional)
+  - mapped with abnormal paired-end signatures (optional)
 - MACS2 was used to call broad and narrow peaks ("--gsize=2.1e9 --broad --broad-cutoff=0.1") and calculate the FRiP scores.
 - HOMER was used to annotate peaks relative to gene features.
 - Genome-wide IP enrichment relative to control was calculated using deepTools

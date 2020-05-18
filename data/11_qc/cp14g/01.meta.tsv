@@ -1,0 +1,9 @@
+SampleID	Tissue	Genotype	Treatment	group	antibody	control	Replicate	MergeID	paired	acc	spots	avgLength
+RA1_tassel_HA_R1_T1	tassel		chip_HA	RA1_tassel_HA	RA1	tassel_HA	1	m1	FALSE	SRR999064	43399338	61.59655453730654
+RA1_tassel_YFP_R1_T1	tassel		chip_YFP	RA1_tassel_YFP	RA1	tassel_YFP	1	m2	FALSE	SRR999065	57361540	57.59076238190258
+tassel_HA_R1_T1	tassel		input_HA	tassel_HA			1	m3	FALSE	SRR999066	10326425	72
+tassel_YFP_R1_T1	tassel		input_YFP	tassel_YFP			1	m4	FALSE	SRR999067	20069769	72
+RA1_ear_HA_R1_T1	ear		chip_HA	RA1_ear_HA	RA1	ear_HA	1	m5	FALSE	SRR999068	21022433	50
+RA1_ear_YFP_R1_T1	ear		chip_YFP	RA1_ear_YFP	RA1	ear_YFP	1	m6	FALSE	SRR999069	29946146	50
+ear_HA_R1_T1	ear		input_HA	ear_HA			1	m7	FALSE	SRR999070	46342800	50
+ear_YFP_R1_T1	ear		input_YFP	ear_YFP			1	m8	FALSE	SRR999071	49265747	50

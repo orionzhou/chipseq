@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="../../reference_genome/10_genome.fna" hasGeneTrack="true" hasSequenceTrack="true" locus="All" version="8">
+	<Resources>
+		<Resource path="./peaks/H2AZ.bed"/>
+		<Resource path="./bigwig/H2AZ_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H2AZ_leaf_R1.bed"/>
+		<Resource path="./bigwig/H2AZ_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H2AZ_leaf_R2.bed"/>
+		<Resource path="./peaks/H3.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H3_ear_R1.bigWig"/>
+		<Resource path="./peaks/H3_ear_R1.bed"/>
+		<Resource path="./peaks/H3K27ac.bed"/>
+		<Resource path="./bigwig/H3K27ac_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K27ac_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K27ac_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K27ac_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K27me3.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K27me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H3K27me3_ear_R1.bigWig"/>
+		<Resource path="./peaks/H3K27me3_ear_R1.bed"/>
+		<Resource path="./bigwig/H3K27me3_ear_R2.bigWig"/>
+		<Resource path="./peaks/H3K27me3_ear_R2.bed"/>
+		<Resource path="./bigwig/H3K27me3_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K27me3_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K27me3_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K27me3_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K36me3.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K36me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H3K36me3_ear_R1.bigWig"/>
+		<Resource path="./peaks/H3K36me3_ear_R1.bed"/>
+		<Resource path="./bigwig/H3K36me3_ear_R2.bigWig"/>
+		<Resource path="./peaks/H3K36me3_ear_R2.bed"/>
+		<Resource path="./bigwig/H3K36me3_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K36me3_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K36me3_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K36me3_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K4me1.bed"/>
+		<Resource path="./bigwig/H3K4me1_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K4me1_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K4me1_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K4me1_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K4me3.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K4me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H3K4me3_ear_R1.bigWig"/>
+		<Resource path="./peaks/H3K4me3_ear_R1.bed"/>
+		<Resource path="./bigwig/H3K4me3_ear_R2.bigWig"/>
+		<Resource path="./peaks/H3K4me3_ear_R2.bed"/>
+		<Resource path="./bigwig/H3K4me3_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K4me3_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K4me3_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K4me3_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K56ac.bed"/>
+		<Resource path="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K56ac/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed"/>
+		<Resource path="./bigwig/H3K56ac_ear_R1.bigWig"/>
+		<Resource path="./peaks/H3K56ac_ear_R1.bed"/>
+		<Resource path="./bigwig/H3K56ac_ear_R2.bigWig"/>
+		<Resource path="./peaks/H3K56ac_ear_R2.bed"/>
+		<Resource path="./bigwig/H3K56ac_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K56ac_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K56ac_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K56ac_leaf_R2.bed"/>
+		<Resource path="./peaks/H3K9ac.bed"/>
+		<Resource path="./bigwig/H3K9ac_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3K9ac_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3K9ac_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3K9ac_leaf_R2.bed"/>
+		<Resource path="./bigwig/H3_leaf_R1.bigWig"/>
+		<Resource path="./peaks/H3_leaf_R1.bed"/>
+		<Resource path="./bigwig/H3_leaf_R2.bigWig"/>
+		<Resource path="./peaks/H3_leaf_R2.bed"/>
+		<Resource path="./bigwig/input_ear_R1.bigWig"/>
+		<Resource path="./bigwig/input_leaf_R1.bigWig"/>
+		<Resource path="./bigwig/input_leaf_R2.bigWig"/>
+	</Resources>
+	<Panel height="1160" name="DataPanel" width="1897">
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H2AZ.bed" name="H2AZ.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H2AZ_leaf_R1.bigWig" name="H2AZ_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H2AZ_leaf_R1.bed" name="H2AZ_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H2AZ_leaf_R2.bigWig" name="H2AZ_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H2AZ_leaf_R2.bed" name="H2AZ_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3.bed" name="H3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed" name="vsba.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3_ear_R1.bigWig" name="H3_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3_ear_R1.bed" name="H3_ear_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27ac.bed" name="H3K27ac.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27ac_leaf_R1.bigWig" name="H3K27ac_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27ac_leaf_R1.bed" name="H3K27ac_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27ac_leaf_R2.bigWig" name="H3K27ac_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27ac_leaf_R2.bed" name="H3K27ac_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27me3.bed" name="H3K27me3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K27me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed" name="vsba.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27me3_ear_R1.bigWig" name="H3K27me3_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27me3_ear_R1.bed" name="H3K27me3_ear_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27me3_ear_R2.bigWig" name="H3K27me3_ear_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27me3_ear_R2.bed" name="H3K27me3_ear_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27me3_leaf_R1.bigWig" name="H3K27me3_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27me3_leaf_R1.bed" name="H3K27me3_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K27me3_leaf_R2.bigWig" name="H3K27me3_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K27me3_leaf_R2.bed" name="H3K27me3_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K36me3.bed" name="H3K36me3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K36me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed" name="vsba.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K36me3_ear_R1.bigWig" name="H3K36me3_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K36me3_ear_R1.bed" name="H3K36me3_ear_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K36me3_ear_R2.bigWig" name="H3K36me3_ear_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K36me3_ear_R2.bed" name="H3K36me3_ear_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K36me3_leaf_R1.bigWig" name="H3K36me3_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K36me3_leaf_R1.bed" name="H3K36me3_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K36me3_leaf_R2.bigWig" name="H3K36me3_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K36me3_leaf_R2.bed" name="H3K36me3_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me1.bed" name="H3K4me1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me1_leaf_R1.bigWig" name="H3K4me1_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me1_leaf_R1.bed" name="H3K4me1_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me1_leaf_R2.bigWig" name="H3K4me1_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me1_leaf_R2.bed" name="H3K4me1_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me3.bed" name="H3K4me3.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K4me3/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed" name="vsba.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me3_ear_R1.bigWig" name="H3K4me3_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me3_ear_R1.bed" name="H3K4me3_ear_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me3_ear_R2.bigWig" name="H3K4me3_ear_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me3_ear_R2.bed" name="H3K4me3_ear_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me3_leaf_R1.bigWig" name="H3K4me3_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me3_leaf_R1.bed" name="H3K4me3_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K4me3_leaf_R2.bigWig" name="H3K4me3_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K4me3_leaf_R2.bed" name="H3K4me3_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K56ac.bed" name="H3K56ac.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./bwa/mergedLibrary/macs/broadPeak/consensus/H3K56ac/deseq2/vsba/vsba.mLb.deseq2.FDR0.05.results.bed" name="vsba.mLb.deseq2.FDR0.05.results.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K56ac_ear_R1.bigWig" name="H3K56ac_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K56ac_ear_R1.bed" name="H3K56ac_ear_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K56ac_ear_R2.bigWig" name="H3K56ac_ear_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K56ac_ear_R2.bed" name="H3K56ac_ear_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K56ac_leaf_R1.bigWig" name="H3K56ac_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K56ac_leaf_R1.bed" name="H3K56ac_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K56ac_leaf_R2.bigWig" name="H3K56ac_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K56ac_leaf_R2.bed" name="H3K56ac_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K9ac.bed" name="H3K9ac.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K9ac_leaf_R1.bigWig" name="H3K9ac_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K9ac_leaf_R1.bed" name="H3K9ac_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3K9ac_leaf_R2.bigWig" name="H3K9ac_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3K9ac_leaf_R2.bed" name="H3K9ac_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3_leaf_R1.bigWig" name="H3_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3_leaf_R1.bed" name="H3_leaf_R1.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/H3_leaf_R2.bigWig" name="H3_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="20" id="./peaks/H3_leaf_R2.bed" name="H3_leaf_R2.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/input_ear_R1.bigWig" name="input_ear_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/input_leaf_R1.bigWig" name="input_leaf_R1.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+		<Track altColor="0,0,178" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="30" id="./bigwig/input_leaf_R2.bigWig" name="input_leaf_R2.bigWig" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+			<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10" minimum="0.0" type="LINEAR"/>
+		</Track>
+	</Panel>
+</Session>

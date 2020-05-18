@@ -1,0 +1,13 @@
+bigwig/ear_HA_R1.bigWig	0,0,178
+bigwig/ear_YFP_R1.bigWig	0,0,178
+peaks/RA1.bed	0,0,0
+bigwig/RA1_ear_HA_R1.bigWig	0,0,178
+peaks/RA1_ear_HA_R1.bed	0,0,178
+bigwig/RA1_ear_YFP_R1.bigWig	0,0,178
+peaks/RA1_ear_YFP_R1.bed	0,0,178
+bigwig/RA1_tassel_HA_R1.bigWig	0,0,178
+peaks/RA1_tassel_HA_R1.bed	0,0,178
+bigwig/RA1_tassel_YFP_R1.bigWig	0,0,178
+peaks/RA1_tassel_YFP_R1.bed	0,0,178
+bigwig/tassel_HA_R1.bigWig	0,0,178
+bigwig/tassel_YFP_R1.bigWig	0,0,178
