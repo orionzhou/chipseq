@@ -18,6 +18,6 @@ Briefly:
 - Genome-wide IP enrichment relative to control was calculated using deepTools
 - Strand cross-correlation peak and ChIP-seq quality measures including NSC and RSC were calculated using phantompeakqualtools.
 
-See [this table](/data/01.cfg.tsv) for a list of collected datasets.
+See [this table](/data/studies.tsv) for a list of collected datasets.
 
 [Check here](output.md) for a walk through of output files.

@@ -1,0 +1,14 @@
+yid	author	year	source	accession	study	genotype	tissue	n	stress	Run
+ca19a3	Ricci	2019	sra			B73	leaf, ear			C
+ca19a4	Ricci	2019	sra			B73	leaf, ear			C
+hc19b	Peng	2019	sra	PRJNA541043		B73	seedling	3		C
+cp12a	Bolduc	2012	sra	PRJNA170127	KNOTTED1	Zm00001d033859	ear, leaf, tassel			C
+cp12b	Morohashi	2012	sra	PRJNA168164	Pericarp Color1	Zm00001d028854	endosperm			C
+cp14g	Eveland	2014	sra	PRJNA219746	RAMOSA	Zm00001d020430	ear			C
+cp15a	Pautler	2015	sra	PRJNA262781	fascinated ear4	Zm00001d037317	ear			C
+cp15b	Li	2015	sra	PRJNA269731 PRJNA262503	Opaque2	Zm00001d018971	endosperm			C
+cp16a	Yang	206	sra	PRJNA305809	HDA101	Zm00001d053595	seed			C
+cp18a	Zhan	2018	sra	PRJNA471036	Opaque2	Zm00001d018971	endosperm			C
+cp18b	Li	2018	sra	PRJNA449500 PRJNA449867	ZmbZIP22	Zm00001d021191	kernel			C
+cp19c	Dong	2019	sra	PRJNA517683	teosinte branch1	Zm00001d033673	tiller bud			C
+cd18a	Galli	2018	sra	PRJNA438360	Auxin Response Ractors family (14)		in vitro			C
