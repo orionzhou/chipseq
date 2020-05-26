@@ -1,0 +1,17 @@
+bigwig/Halo_R1.bigWig	0,0,178
+bigwig/Halo_R2.bigWig	0,0,178
+peaks/Knotted1_HB1.bed	0,0,0
+bigwig/Knotted1_HB1_R1.bigWig	0,0,178
+peaks/Knotted1_HB1_R1.bed	0,0,178
+bigwig/Knotted1_HB1_R2.bigWig	0,0,178
+peaks/Knotted1_HB1_R2.bed	0,0,178
+peaks/P1_MYB3.bed	0,0,0
+bigwig/P1_MYB3_R1.bigWig	0,0,178
+peaks/P1_MYB3_R1.bed	0,0,178
+bigwig/P1_MYB3_R2.bigWig	0,0,178
+peaks/P1_MYB3_R2.bed	0,0,178
+peaks/RA2_LBD16.bed	0,0,0
+bigwig/RA2_LBD16_R1.bigWig	0,0,178
+peaks/RA2_LBD16_R1.bed	0,0,178
+bigwig/RA2_LBD16_R2.bigWig	0,0,178
+peaks/RA2_LBD16_R2.bed	0,0,178
