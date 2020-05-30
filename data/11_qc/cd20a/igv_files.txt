@@ -1,3 +1,13 @@
+peaks/CPP8.bed	0,0,0
+bigwig/CPP8_R1.bigWig	0,0,178
+peaks/CPP8_R1.bed	0,0,178
+bigwig/CPP8_R2.bigWig	0,0,178
+peaks/CPP8_R2.bed	0,0,178
+peaks/EREB6.bed	0,0,0
+bigwig/EREB6_R1.bigWig	0,0,178
+peaks/EREB6_R1.bed	0,0,178
+bigwig/EREB6_R2.bigWig	0,0,178
+peaks/EREB6_R2.bed	0,0,178
 bigwig/Halo_R1.bigWig	0,0,178
 bigwig/Halo_R2.bigWig	0,0,178
 peaks/Knotted1_HB1.bed	0,0,0
