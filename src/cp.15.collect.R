@@ -94,4 +94,29 @@ fo = file.path(dirw, 'Ricci2019_tmp/01.raw.bed')
 write_tsv(to, fo, col_names=F)
 #}}}
 
+# cd20a
+dirr = '/home/springer/zhoux379/projects/chipseq/nf/cd20a/raw'
+tfs = c("CPP8",'EREB6','Knotted1_HB1','P1_MYB3','RA2_LBD16')
+ti = crossing(tf=tfs, r=c("R1","R2")) %>%
+    mutate(pre = str_c(tf, r, sep='_')) %>%
+    mutate(fs1 = sprintf("%s/30_ase/%s.bam.tsv", dirr, pre)) %>%
+    mutate(fs2 = sprintf("%s/30_ase/%s.tsv", dirr, pre)) %>%
+    mutate(data1 = map(fs1, read_tsv, col_names=c('type','cnt','cnt1','cnt2'))) %>%
+    mutate(data2 = map(fs2, read_tsv))
 
+ti2 = ti %>% select(tf, rep=r, data1) %>% unnest(data1) %>%
+    filter(type=='unpair_map') %>%
+    select(tf, rep, TotalMappedReads=cnt, AssignedReadsH1=cnt1, AssignedReadsH2=cnt2) %>%
+    mutate(FrationReadsH1 = AssignedReadsH1/(AssignedReadsH1+AssignedReadsH2))
+
+ti3 = ti %>% select(tf, rep=r, data2) %>%
+    mutate(data = map(data2, myfun <- function(x) {x %>% select(cnt=7,cnt1=8,cnt2=9)} )) %>%
+    unnest(data) %>%
+    group_by(tf, rep) %>%
+    summarise(TotalPeakReads = sum(cnt), PeakReadsH1=sum(cnt1), PeakReadsH2=sum(cnt2)) %>%
+    ungroup() %>%
+    mutate(FractionPeakReadsH1 = PeakReadsH1/(PeakReadsH1+PeakReadsH2))
+
+tp = ti2 %>% inner_join(ti3, by=c('tf','rep'))
+fo = file.path(dirr, '31.ase.tsv')
+write_tsv(tp, fo)
