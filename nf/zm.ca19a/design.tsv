@@ -1,0 +1,7 @@
+SampleID	Tissue	Genotype	Treatment	group	replicate	control	paired	spots	avgLength	r0	r1	r2
+s1	leaf			leaf	1	input_R1	PE	95964379	72	SRR7889827	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s1_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s1_R2.fq.gz
+s2	leaf			leaf	1	input_R1	PE	571321741	72	SRR7889828	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s2_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s2_R2.fq.gz
+s3	ear			ear	1	input_R1	PE	76811222	72	SRR7889829	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s3_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s3_R2.fq.gz
+s4	ear			ear	1	input_R1	PE	174903747	72	SRR7889830	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s4_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s4_R2.fq.gz
+s5	input			input	1		PE	112555834	71	SRR7889831	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s5_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s5_R2.fq.gz
+s6	input			input	1		PE	113684140	71	SRR7889832	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s6_R1.fq.gz	/home/springer/zhoux379/projects/s3/zhoup-barn/zm.ca19a/s6_R2.fq.gz

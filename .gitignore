@@ -1,7 +1,6 @@
 # Project directories
 cache
 logs
-nf
 
 peaks
 bigwig
@@ -18,6 +17,13 @@ data/*
 *Rplots.pdf
 *.swp
 .panfs*
+
+# nextflow
+.nextflow*
+raw
+results
+work
+pipeline_info
 
 # Large data files
 *.gff
