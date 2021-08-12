@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#SBATCH -N 1 -n 1 -c 1
+#SBATCH --time=50:00:00
+#SBATCH --mem=20gb
+#SBATCH -p small,amdsmall
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=pzhou@caas.cn
+#SBATCH -J zm.ca20a 
+#SBATCH -o job.out
+
+echo ${SLURM_JOBID}
+
+cd $cp/nf/zm.ca20a
+source activate nf
+nextflow run $nf/chipseq -params-file $proj/genome/nf/genomes.yml -profile conda,msi -resume

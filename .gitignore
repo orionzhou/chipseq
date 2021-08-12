@@ -9,6 +9,7 @@ peaks_annotated
 # data folder
 data/*
 !data/11_qc
+job.out
 
 # app temp files
 .snakemake/*
