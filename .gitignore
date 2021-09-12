@@ -2,14 +2,9 @@
 cache
 logs
 
-peaks
-bigwig
-peaks_annotated
-
 # data folder
 data/*
 !data/11_qc
-job.out
 
 # app temp files
 .snakemake/*
@@ -27,6 +22,7 @@ work
 pipeline_info
 
 # Large data files
+job.out
 *.gff
 *.bed
 *.fasta
